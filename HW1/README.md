@@ -12,14 +12,15 @@ In this assignment, you will build, train, and evaluate a minimal decoder-only T
 
 ## Environment Setup
 
-It is highly recommended to use a virtual environment (e.g., Conda or Python venv) to avoid dependency conflicts. 
+It is highly recommended to use a virtual environment (e.g., Conda) to avoid dependency conflicts. 
 
 1. Ensure you have Python 3.8+ installed.
 2. Install the required dependencies:
    ```bash
+   git clone git@github.com:WHB139426/ECS189G.git
+   cd /your/path/to/ECS189G/HW1
    conda create -n tiny_transformer python=3.10.11
    conda activate tiny_transformer
-   cd /path/to/this/folder
    pip install -r requirements.txt
    ```
 (Note: The default code is designed to be CPU-friendly and will automatically use a GPU if available. You do not need a GPU to complete the base requirements of this assignment)
